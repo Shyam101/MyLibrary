@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Library</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1 style="font-weight: 900;">My Library</h1>
+        <button id="addBtn">Add Book</button>
+        <div class="addBook">
+            <div id="popup">
+                <form class="modal-content" id="bookform">
+                    <legend >Add new Book</legend>
+                    <input type="text" class="inputs" id="title" placeholder="Title"> 
+                    <input type="text" class="inputs" id="author" placeholder="Author"> 
+                    <input type="number" min="1" class="inputs" id="pages" placeholder="Pages">
+                    <label>Read? <input type="checkbox" class="inputs" id="read"></label>
+                    <div>
+                        <button id="submit" type="button">Submit</button>
+                        <button id="close" type="button">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bookself">
+
+        </div>
+        <script src="./main2.js"></script>
+    </body>
+</html>
